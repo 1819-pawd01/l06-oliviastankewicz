@@ -1,0 +1,41 @@
+/*
+* Olivia Stankewicz
+* October 30th, 2018
+* Lab 06-Tables
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: #ffe6e6
+
+}
+
+td {
+    color: black;
+    background-color:#ff9999;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #800000
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
