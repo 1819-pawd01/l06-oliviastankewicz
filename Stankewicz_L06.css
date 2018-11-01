@@ -6,36 +6,42 @@
 
 /* The universal selector */
 
-* {
-
-}
+* {}
 
 /* Body attributes here */
 
 body {
     background-color: #ffe6e6
-
 }
 
 td {
-    color: black;
-    background-color:#ff9999;
+    color: white;
+    background-color: #ff9999;
     text-align: center;
 }
+
 
 h1 {
     text-align: center;
     color: #800000
-
 }
 
 table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
 }
 
+thead,
+tfoot {
+    background-color: #ffcccc
+}
 
-
+tr:hover {
+    background-color: #ccccff;
+    color: black;
+}
